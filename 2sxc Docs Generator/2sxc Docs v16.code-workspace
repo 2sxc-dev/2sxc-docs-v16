@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+  ],
+  "settings": {
+    "cSpell.words": [
+      "Blazor",
+      "ETAG",
+      "Evoq",
+      "FIPS",
+      "Imageflow",
+      "Linq",
+      "Mobius",
+      "NVARCHAR",
+      "Oqtane",
+      "Resizer",
+      "Roadmap",
+      "Shortlink",
+      "templating",
+      "VARCHAR"
+    ],
+    "dotnet.defaultSolution": "2sxc Docs Generator.sln"
+  }
+}

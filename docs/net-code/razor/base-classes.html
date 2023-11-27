@@ -1,0 +1,324 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PH2TVNW');</script>
+    <!-- End Google Tag Manager -->
+    <!-- azing recipe embed resizer -->
+    <script src="https://cdn.azing.org/e/1/embed.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>@inherits Base Classes #todoc / WIP | 2sxc 16 / EAV 16 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="@inherits Base Classes #todoc / WIP | 2sxc 16 / EAV 16 ">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../../assets/favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+  
+  <meta property="docfx:rel" content="../../">
+  <meta property="docfx:newtab" content="true">
+
+    <!-- Enable lightboxes on all images using https://github.com/roel4ez/docfx-lightbox-plugin -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.13/featherlight.min.css" type="text/css" rel="stylesheet">
+
+    <!-- overwrite the built in highlightJs with a newer version -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/default.min.css">
+
+    <!-- fancybox -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../assets/logos/vcurrent/50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../../basics/index.html" title="Basics">Basics</a>
+                      </li>
+                      <li>
+                          <a href="../../abyss/index.html" title="Abyss">Abyss</a>
+                      </li>
+                      <li>
+                          <a href="../../web-api/index.html" title="Web APIs">Web APIs</a>
+                      </li>
+                      <li class="active">
+                          <a href="../../net-code/index.html" title="C# &amp; Razor">C# &amp; Razor</a>
+                      </li>
+                      <li>
+                          <a href="../../api/dot-net/index.html" title=".net API">.net API</a>
+                      </li>
+                      <li>
+                          <a href="../../js-code/index.html" title="JS &amp; TS API">JS &amp; TS API</a>
+                      </li>
+                </ul>            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="xxx-breadcrumb">
+            <a class="navbar-right version-button" style="padding: 10px 0 0 0;" href="https://go.2sxc.org/docs-versions" target="_blank">
+              v16 <span class="glyphicon glyphicon-menu-down"></span>
+            </a>
+            <div id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="NetCode.Razor.BaseClasses">
+<h1 id="inherits-base-classes-todoc--wip"><code>@inherits</code> Base Classes #todoc / WIP</h1>
+
+<p>Every Razor template inherits from a base class - and depending on that the features in the template will change.</p>
+<p>These are the base classes you can inherit from as of v14 (we'll explain each in more detail below)</p>
+<ol>
+<li><code>Custom.Hybrid.Razor14</code> - new in v14</li>
+<li><code>Custom.Hybrid.Razor12</code> - new in v12</li>
+<li><code>Custom.Dnn.Razor12</code> - new in v12; same as Hybrid, but with <code>Dnn</code> property</li>
+<li><code>ToSic.Sxc.Dnn.RazorComponent</code> - new in v10</li>
+<li><code>ToSic.SexyContent.Razor.SexyContentWebPage</code> - very old since v2 - deprecated, but the default if nothing is set.</li>
+<li>Default in Oqtane</li>
+<li></li>
+</ol>
+<p>Important: If you don't specify an <code>@inherits</code> in your code, the system will automatically apply a default base class to your code. This is different in Dnn and Oqtane:</p>
+<ol>
+<li>In Dnn the default base class is <code>ToSic.SexyContent.Razor.SexyContentWebPage</code> as it's specified in a <code>web.config</code> in the 2sxc folder of each site.<br>
+This is the oldest base class and should not be used any more.</li>
+<li>In Oqtane the default base is <code>#todoc</code> which is the default for .net 5</li>
+</ol>
+<div style="background: #0088F444; overflow: auto">
+  <img src="../../shared/tutorials/assets/razor.png" width="200px" style="padding-right: 20px; float: left">
+  <h2> Discover More in the Razor Tutorials </h2>
+<p>We have an rich series of <a class="xref" href="https://2sxc.org/dnn-tutorials/en/razor">Razor tutorials</a>. You should really check them out 👍.</p>
+</div>
+<h2 id="customhybridrazor14">Custom.Hybrid.Razor14</h2>
+<p>This is the newest base class and recommended to use.
+It's almost identical with Razor12 with these differences:</p>
+<ol>
+<li>the <code>Kit</code> property is new, providing access to the ServiceKit called ServiceKit14</li>
+<li>the <code>Convert</code> property is removed, as it caused confusion with <code>System.Convert</code></li>
+</ol>
+<p>Note that the hybrid base classes don't have a <code>Dnn</code> property as they are hybrid and work on Oqtane and Dnn.</p>
+<p>If you think you need the Dnn property, best first check if the <a class="xref" href="../../api/dot-net/ToSic.Sxc.Context.html">CmsContext</a> can't be used instead.</p>
+<p>Otherwise inherit from <code>Custom.Dnn.Razor12</code> and just get the Services you need with GetService.</p>
+<h2 id="customhybridrazor12">Custom.Hybrid.Razor12</h2>
+<p>This is the newest base class and was introduced in 2sxc 12. It contains the features which will work cross-platform on both Dnn and Oqtane. You should use this base class to create solutions / Apps which work on Dnn and Oqtane.</p>
+<h3 id="limitations-of-customhybridrazor12">Limitations of Custom.Hybrid.Razor12</h3>
+<p>Since this base class is meant to work on both Dnn and Oqtane, it only supports features which both of these platforms support.</p>
+<ol>
+<li>The property <code>Dnn</code> doesn't exist on this base class, as it would lead to code which can't run cross-platform</li>
+<li>As of now the properties / methods <code>CustomizeData(...)</code>, <code>CustomizeSearch(...)</code> and <code>Purpose</code> do not work, because Oqtane doesn't have a search indexer. We plan on introducing something like this once Oqtane provides search, but as of now it's not yet clear how this would work.</li>
+<li>The code-behing <code>Code</code> object doesn't work, as we probably cannot implement this in .net 5</li>
+<li>The <code>CreateInstance(...)</code> works only on C# files <code>.cs</code> but not with CSHTML files <code>.cshtml</code> as this probably won't work in .net 5</li>
+<li>Koi works differently than before. Previously you just used a global object <code>Connect.Koi.Koi</code> to use Koi, but because .net 5 should really use dependency injection, you should now get Koi using <code>GetService&lt;Connect.Koi.ICss&gt;()</code>. The old mechanism will still work in Dnn but would not work in Oqtane.</li>
+</ol>
+<h4 id="platform-differences">Platform Differences</h4>
+<p>Internally <code>Custom.Hybrid.Razor12</code> is built on the Razor base classes of the .net frameworks, so in Dnn it builds on <code>#todoc</code> while in Oqtane it builds on <code>#todoc</code>. Because of this, certain features will work in Dnn which don't work in Oqtane and vice versa.</p>
+<ul>
+<li>If you only want to create Oqtane stuff only, you can just go ahead and use all the new features of the Razor in .net 5</li>
+<li>If you plan on creating real hybrid stuff, you will have to do some testing to ensure you didn't use features that don't exist on the other side</li>
+<li>If you need to code something which is different in each platform, use the <code>#if</code> <a class="xref" href="hybrid/index.html">preprocessor statements</a></li>
+</ul>
+<p>Some core feature differences</p>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th style="text-align: center;">Dnn</th>
+<th style="text-align: center;">Oqtane</th>
+<th>Comments</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>@inherits</code></td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">✅</td>
+<td></td>
+</tr>
+<tr>
+<td><code>@helper</code></td>
+<td style="text-align: center;">✅</td>
+<td style="text-align: center;">⛔</td>
+<td>Doesn't exist in .net 5</td>
+</tr>
+<tr>
+<td><code>@model</code></td>
+<td style="text-align: center;">⛔</td>
+<td style="text-align: center;">✅</td>
+<td>Doesn't exist in old .net</td>
+</tr>
+<tr>
+<td>#todoc</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="tosicsxcdnnrazorcomponent">ToSic.Sxc.Dnn.RazorComponent</h3>
+<p>todo #todoc</p>
+<h3 id="the-old-one">The old one...</h3>
+<p>todo: #todoc</p>
+<h2 id="internal-docs-api-controller-inheritance">Internal Docs: Api Controller Inheritance</h2>
+<div class="WARNING">
+<h5>Warning</h5>
+<p>This is internal documentation for the 2sxc core developers.
+You don't need this part.</p>
+</div>
+<h3 id="internal-docs-dnn-api-controller-inheritance">Internal Docs: Dnn API Controller Inheritance</h3>
+<p>Basis for everything:</p>
+<ol>
+<li><code>System.Web.WebPages.WebPageBase</code>
+<ol>
+<li>🥷🏽 <code>ToSic.Sxc.Web.RazorComponentBase</code>
+<em>internal base for all Razor Pages in DNN</em><br>
+🔹 adds dynamic code context, <code>Html</code>, <code>RenderPage</code>, etc.<br>
+🔹 adds simple <code>Log</code> object<br>
+🔹 Adds logging to insights<br>
+🔹 Base class for everything</li>
+</ol>
+</li>
+</ol>
+<p>Based on that these public base classes were made:</p>
+<ol>
+<li>⭐💀 <code>ToSic.SexyContent.Razor.SexyContentWebPage</code> <em>public, very old/deprecated</em><br>
+<em>oldest base class, should not be used any more</em><br>
+🔹 TODO: MUST CHECK IF THIS IS STILL THE DEFAULT in web.config<br>
+🔹 had some exotic propecties such as <code>List</code> which contained Content/Presentation pairs
+<ol>
+<li>🥷🏽 <code>ToSic.SexyContent.Razor.SexyContentWebPage&lt;T&gt;</code> <em>internal, only for technical reasons</em></li>
+</ol>
+</li>
+<li>⭐💀 <code>ToSic.Sxc.Dnn.RazorComponent</code> <em>public, old/deprecated</em><br>
+<em>was the replacement for the previous, without the exotic <code>List</code></em>
+🔹 Had old APIs such as <code>CustomizeData</code> and <code>CustomizeCode</code> which isn't needed any more
+<ol>
+<li>⭐💀 <code>ToSic.Sxc.Dnn.RazorComponentCode</code> <em>public, old/deprecated</em><br>
+<em>used for deprecated feature: code-behind</em></li>
+</ol>
+</li>
+<li>⭐💀 <code>Custom.Hybrid.Razor12</code> <em>public, recommended to move to 14</em><br>
+<em>works fine, but is missing some newer features</em>
+🔹 Removed <code>CustomizeData</code> and <code>CustomizeCode</code><br>
+🔹 Had a public object <code>Convert</code> which interfered with the <code>System.Convert</code></li>
+<li>🥷🏽 <code>Custom.Hybrid.Advanced.Razor14&lt;TModel, TServiceKit&gt;</code> <em>internal</em><br>
+🔹 adds the <code>Kit</code> property with all kinds of ready-to-use Services<br>
+🔹 also removes the <code>.Convert</code> object, which is now on Kit.Convert
+<ol>
+<li>⭐🌟 <code>Custom.Hybrid.Razor14</code> <em>public, <strong>recommended</strong></em></li>
+</ol>
+</li>
+</ol>
+<hr>
+<h2 id="history">History</h2>
+<ul>
+<li>2sxc 10.20 - changed to <code>Purpose</code> from <code>InstancePurpose</code> - old code still works</li>
+</ul>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/2sic/2sxc-docs/blob/master/2sxc Docs Generator/pages/net-code/razor/base-classes.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+
+    <!-- override the built-in highlightjs with a newer version -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script src="../../styles/cshtml-razor.js"></script>
+    <script>
+        hljs.registerLanguage('cshtml-razor', window.hljsDefineCshtmlRazor);
+        hljs.highlightAll();
+    </script>
+
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.13/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="../../styles/2sxc-scripts.js"></script>
+
+    <!-- fancybox -->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  </body>
+</html>

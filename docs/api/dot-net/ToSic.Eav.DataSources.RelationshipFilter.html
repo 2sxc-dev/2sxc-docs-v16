@@ -1,0 +1,575 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PH2TVNW');</script>
+    <!-- End Google Tag Manager -->
+    <!-- azing recipe embed resizer -->
+    <script src="https://cdn.azing.org/e/1/embed.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class RelationshipFilter
+ | 2sxc 16 / EAV 16 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class RelationshipFilter
+ | 2sxc 16 / EAV 16 ">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../../assets/favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+  
+  <meta property="docfx:rel" content="../../">
+  <meta property="docfx:newtab" content="true">
+
+    <!-- Enable lightboxes on all images using https://github.com/roel4ez/docfx-lightbox-plugin -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.13/featherlight.min.css" type="text/css" rel="stylesheet">
+
+    <!-- overwrite the built in highlightJs with a newer version -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/default.min.css">
+
+    <!-- fancybox -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../assets/logos/vcurrent/50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../../basics/index.html" title="Basics">Basics</a>
+                      </li>
+                      <li>
+                          <a href="../../abyss/index.html" title="Abyss">Abyss</a>
+                      </li>
+                      <li>
+                          <a href="../../web-api/index.html" title="Web APIs">Web APIs</a>
+                      </li>
+                      <li>
+                          <a href="../../net-code/index.html" title="C# &amp; Razor">C# &amp; Razor</a>
+                      </li>
+                      <li class="active">
+                          <a href="../../api/dot-net/index.html" title=".net API">.net API</a>
+                      </li>
+                      <li>
+                          <a href="../../js-code/index.html" title="JS &amp; TS API">JS &amp; TS API</a>
+                      </li>
+                </ul>            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="xxx-breadcrumb">
+            <a class="navbar-right version-button" style="padding: 10px 0 0 0;" href="https://go.2sxc.org/docs-versions" target="_blank">
+              v16 <span class="glyphicon glyphicon-menu-down"></span>
+            </a>
+            <div id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="ToSic.Eav.DataSources.RelationshipFilter">
+
+
+
+  <h1 id="ToSic_Eav_DataSources_RelationshipFilter" data-uid="ToSic.Eav.DataSources.RelationshipFilter" class="text-break">Class RelationshipFilter
+</h1>
+  <div class="markdown level0 summary"><p>The base class for all DataSources, especially custom DataSources.
+It must always be inherited.
+It provides a lot of core functionality to get configurations, ensure caching and more.</p>
+<p>Important: in most cases you will inherit the <a class="xref" href="ToSic.Eav.DataSource.CustomDataSource.html">CustomDataSource</a> DataSource for custom data sources.</p>
+</div>
+  <div class="markdown level0 conceptual">
+<p>The <strong>RelationshipFilter</strong> <a class="xref" href="../../net-code/data-sources/datasource.html">DataSource</a> is part of the <a class="xref" href="../../basics/query/data-sources/index.html">Standard EAV Data Sources</a>. It will return only the items which have a relationship to another item - like books having an author, or blog-posts with the tag <em>grunt</em>.</p>
+<h2 id="how-to-use-with-the-visualquery">How to use with the VisualQuery</h2>
+<p>When using the  <a class="xref" href="../../basics/query/visual-query/index.html">VisualQuery</a>  you can just drag it into your query. This is what it usually looks like:</p>
+<img src="ToSic.Eav/DataSources/assets/relationship-filter-basic.png" width="100%" class="full-width">
+<h2 id="using-url-parameters">Using Url Parameters</h2>
+<p>You can of course also use URL parameters for both the value as well as the field:</p>
+<img src="ToSic.Eav/DataSources/assets/relationship-filter-url.png" width="100%" class="full-width">
+<h2 id="using-the-fallback">Using the Fallback</h2>
+<p>In case none of the items match the reqiurement, then either no items are returned, or those in the fallback stream:</p>
+<img src="ToSic.Eav/DataSources/assets/relationship-filter-fallback.png" width="100%" class="full-width">
+<p>You can find more fallback examples like chaining them in the <a class="xref" href="ToSic.Eav.DataSources.ValueFilter.html">ValueFilter DataSource</a></p>
+<h2 id="separators-for-multiple-criterias-2sxc-99">Separators for Multiple Criterias (2sxc 9.9+)</h2>
+<p>Until 2sxc 9.8 you could only check for 1 related item, so you could only say &quot;give me all items which have this one author&quot;. In 2sxc 9.9 we are now able to specify multiple authors, allowing queries like &quot;give me all items which have all these authors&quot; or &quot;give me all items which have any of these authors&quot;.</p>
+<p>This works using the separation-character, which is usually a comma <code>,</code> but could be something different (in case your items have commas in the texts you're comparing). If you don't specify a separator, none will be used and the whole <code>Filter</code> criteria is treated as one value. Here's where you set it:</p>
+<img src="ToSic.Eav/DataSources/assets/relationship-filter-separator.png" width="100%" class="full-width">
+<h2 id="all-operators-2sxc-99">All Operators (2sxc 9.9+)</h2>
+<p>Untill 2sxc 9.8, you could not specify an operator, and <code>contains</code> was the assumed operator. In 9.9 we added a lot more. To explain what each does, assume that our main stream contains items of <code>BlogPost</code> and we only want to keep the posts having certain <code>Tags</code>.</p>
+<p>Here's the list, each is explained more below:</p>
+<ol>
+<li><code>contains</code> - will return all items (BlogPosts), having <strong>all</strong> the children (tags) specified</li>
+<li><code>containsany</code> - will return all items (BlogPosts) having <strong>any</strong> of the children (tags) specified</li>
+<li><code>not-contains</code> will return all items (BlogPosts) <strong>not-having-all</strong> of the children (tags). So it will also return those items, having some of the children.</li>
+<li><code>not-containsany</code> will return all items (BlogPosts) having <strong>none</strong> of the children (tags) specified.</li>
+<li><code>any</code> will return all items (BlogPosts) having <strong>any children at all</strong> (tags). So the filter is ignored. This is the same as count=0.</li>
+<li><code>not-any</code> will return all items (BlogPosts) having <strong>no children</strong> (tags).</li>
+<li><code>first</code> will return all items (BlogPosts) where the <strong>first child</strong> (tag) is one of the filter-options. This is for scenarios where you say the first tag is a primary-category or similar.</li>
+<li><code>not-first</code> will return  all items (BlogPosts) where the first children (tags) is not one of the filter values.</li>
+<li><code>count</code> will return all items (BlogPosts) having a <strong>specific amount</strong> of children (tags)</li>
+<li><code>not-count</code> will return all items (BlogPosts) <strong>not having a specific amount</strong> of children (tags)</li>
+</ol>
+<h2 id="filtering-on-fields-other-than-title-and-id-99">Filtering On Fields other than Title and ID (9.9+)</h2>
+<p>In 2sxc 9.9 we added the ability to specify which field you want to compare (before it was always Id or Title). Here's an example:</p>
+<img src="ToSic.Eav/DataSources/assets/relationship-filter-other-field.png" width="100%" class="full-width">
+<h2 id="filtering-by-relationship-count-99">Filtering by Relationship-Count (9.9+)</h2>
+<p>In 2sxc 9.9 we added the ability to filter by amount of relationships - so you could say &quot;give me all blog-posts with exactly 2 tags&quot;:</p>
+<img src="ToSic.Eav/DataSources/assets/relationship-filter-count.png" width="100%" class="full-width">
+<p>Note: you can also reverse this, so instead of <code>count</code> you can use <code>not-count</code> to get all the items that don't match this requirement.</p>
+<h2 id="filtering-by-has-any-99">Filtering by Has-Any (9.9+)</h2>
+<p>In 2sxc 9.9 we added the ability to filter by</p>
+<h2 id="limitations-of-the-relationshipfilter">Limitations of the RelationshipFilter</h2>
+<p>Note that as of now (2sxc 9.9) the RelationshipFilter:</p>
+<ol>
+<li>can only seek child-items</li>
+</ol>
+<h2 id="programming-with-the-relationshipfilter-datasource">Programming With The RelationshipFilter DataSource</h2>
+<blockquote>
+<p>We recommend to use the <a class="xref" href="../../basics/query/visual-query/index.html">VisualQuery</a> where possible,
+as it's easier to understand and is identical for C# and JavaScript.
+It's also better because it separates data-retrieval from visualization.</p>
+</blockquote>
+<h2 id="read-also">Read also</h2>
+<ul>
+<li><a class="xref" href="../../net-code/data-sources/datasource.html">DataSource</a> / <a class="xref" href="../../net-code/data-sources/datastream.html">DataStream</a></li>
+<li><a class="xref" href="../../basics/query/data-sources/index.html">List of all EAV Data Sources</a></li>
+<li><a class="xref" href="../../basics/query/index.html">Query</a> / <a class="xref" href="../../basics/query/visual-query/index.html">VisualQuery</a></li>
+</ul>
+<h2 id="demo-app-and-further-links">Demo App and further links</h2>
+<p>You should find some examples in this demo App</p>
+<ul>
+<li><a href="https://github.com/2sic/app-demo-visual-query/releases/latest">Demo App with examples for most DataSources</a></li>
+</ul>
+<h2 id="history">History</h2>
+
+<ol>
+<li>Introduced in EAV 4.x, 2sxc ?</li>
+<li>Added AttributeOnRelationship (to compare other fields that title/id) in 2sxc 9.9</li>
+<li>Added separator to enable multi-filter in 2sxc 9.9</li>
+<li>Added various operators like <code>count</code>, <code>first</code>, <code>containsany</code>, <code>any</code>, <code>not-*</code> in 2sxc 9.9</li>
+</ol>
+<!-- note: this must be an H1 because of the automatic TOC in the code pages -->
+<h1 id="api-documentation">API Documentation</h1>
+</div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><a class="xref" href="ToSic.Lib.Services.ServiceBase.html">ServiceBase</a></div>
+    <div class="level2"><span class="xref">ServiceBase</span>&lt;<a class="xref" href="ToSic.Eav.DataSource.DataSourceBase.html">DataSourceBase</a>.<a class="xref" href="ToSic.Eav.DataSource.DataSourceBase.MyServices.html">MyServices</a>&gt;</div>
+    <div class="level3"><a class="xref" href="ToSic.Eav.DataSource.DataSourceBase.html">DataSourceBase</a></div>
+    <div class="level4"><span class="xref">RelationshipFilter</span></div>
+  </div>
+  <div class="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="ToSic.Eav.DataSource.IDataSource.html">IDataSource</a></div>
+    <div><a class="xref" href="ToSic.Eav.Apps.IAppIdentity.html">IAppIdentity</a></div>
+    <div><a class="xref" href="ToSic.Eav.Apps.IZoneIdentity.html">IZoneIdentity</a></div>
+    <div><a class="xref" href="ToSic.Eav.Apps.IAppIdentityLight.html">IAppIdentityLight</a></div>
+    <div><a class="xref" href="ToSic.Eav.Caching.ICacheKey.html">ICacheKey</a></div>
+    <div><a class="xref" href="ToSic.Eav.Caching.ICacheExpiring.html">ICacheExpiring</a></div>
+    <div><a class="xref" href="ToSic.Eav.Caching.ITimestamped.html">ITimestamped</a></div>
+    <div><a class="xref" href="ToSic.Lib.Logging.IHasLog.html">IHasLog</a></div>
+    <div><a class="xref" href="ToSic.Eav.DataSource.IDataSourceLinkable.html">IDataSourceLinkable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="ToSic.Eav.DataSource.DataSourceBase.html#ToSic_Eav_DataSource_DataSourceBase_Immutable">DataSourceBase.Immutable</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Eav.DataSource.DataSourceBase.html#ToSic_Eav_DataSource_DataSourceBase_AppId">DataSourceBase.AppId</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Eav.DataSource.DataSourceBase.html#ToSic_Eav_DataSource_DataSourceBase_ZoneId">DataSourceBase.ZoneId</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Eav.DataSource.DataSourceBase.html#ToSic_Eav_DataSource_DataSourceBase_Guid">DataSourceBase.Guid</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Eav.DataSource.DataSourceBase.html#ToSic_Eav_DataSource_DataSourceBase_Error">DataSourceBase.Error</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Eav.DataSource.DataSourceBase.html#ToSic_Eav_DataSource_DataSourceBase_CacheTimestamp">DataSourceBase.CacheTimestamp</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Eav.DataSource.DataSourceBase.html#ToSic_Eav_DataSource_DataSourceBase_CacheChanged_System_Int64_">DataSourceBase.CacheChanged(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Eav.DataSource.DataSourceBase.html#ToSic_Eav_DataSource_DataSourceBase_Configuration">DataSourceBase.Configuration</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Eav.DataSource.DataSourceBase.html#ToSic_Eav_DataSource_DataSourceBase_Link">DataSourceBase.Link</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Eav.DataSource.DataSourceBase.html#ToSic_Eav_DataSource_DataSourceBase_In">DataSourceBase.In</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Eav.DataSource.DataSourceBase.html#ToSic_Eav_DataSource_DataSourceBase_Out">DataSourceBase.Out</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Eav.DataSource.DataSourceBase.html#ToSic_Eav_DataSource_DataSourceBase_Item_System_String_">DataSourceBase.this[string]</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Eav.DataSource.DataSourceBase.html#ToSic_Eav_DataSource_DataSourceBase_GetStream_System_String_System_String_System_Boolean_System_Boolean_">DataSourceBase.GetStream(string, string, bool, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Eav.DataSource.DataSourceBase.html#ToSic_Eav_DataSource_DataSourceBase_List">DataSourceBase.List</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Eav.DataSource.DataSourceBase.html#ToSic_Eav_DataSource_DataSourceBase_Attach_ToSic_Eav_DataSource_IDataSource_">DataSourceBase.Attach(IDataSource)</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Eav.DataSource.DataSourceBase.html#ToSic_Eav_DataSource_DataSourceBase_Attach_System_String_ToSic_Eav_DataSource_IDataSource_System_String_">DataSourceBase.Attach(string, IDataSource, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="ToSic.Eav.DataSource.DataSourceBase.html#ToSic_Eav_DataSource_DataSourceBase_Attach_System_String_ToSic_Eav_DataSource_IDataStream_">DataSourceBase.Attach(string, IDataStream)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="ToSic.html">ToSic</a>.<a class="xref" href="ToSic.Eav.html">Eav</a>.<a class="xref" href="ToSic.Eav.DataSources.html">DataSources</a></h6>
+  <h6><strong>Assembly</strong>: ToSic.Eav.DataSources.dll</h6>
+  <h5 id="ToSic_Eav_DataSources_RelationshipFilter_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[PublicApi_Stable_ForUseInYourCode]
+[VisualQuery(NiceName = &quot;Relationship Filter&quot;, UiHint = &quot;Keep items having a relationship matching a criteria&quot;, Icon = &quot;share&quot;, Type = DataSourceType.Filter, NameId = &quot;ToSic.Eav.DataSources.RelationshipFilter, ToSic.Eav.DataSources&quot;, In = new string[] { &quot;Default*&quot;, &quot;Fallback&quot; }, DynamicOut = false, ConfigurationType = &quot;|Config ToSic.Eav.DataSources.RelationshipFilter&quot;, HelpLink = &quot;https://go.2sxc.org/DsRelationshipFilter&quot;)]
+public sealed class RelationshipFilter : DataSourceBase, IDataSource, IAppIdentity, IZoneIdentity, IAppIdentityLight, ICacheKey, ICacheExpiring, ITimestamped, IHasLog, IDataSourceLinkable</code></pre>
+  </div>
+  <h5 id="ToSic_Eav_DataSources_RelationshipFilter_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Had a major, breaking update in v15.
+Consult the guide to upgrade your custom data sources.</p>
+</div>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic/eav-server/new/develop/apiSpec/new?filename=ToSic_Eav_DataSources_RelationshipFilter_ChildOrParent.md&amp;value=---%0Auid%3A%20ToSic.Eav.DataSources.RelationshipFilter.ChildOrParent%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic/eav-server/blob/develop/ToSic.Eav.DataSources/DataSources/Relationships/RelationshipFilter.cs/#L128">View Source</a>
+  </span>
+  <a id="ToSic_Eav_DataSources_RelationshipFilter_ChildOrParent_" data-uid="ToSic.Eav.DataSources.RelationshipFilter.ChildOrParent*"></a>
+  <h4 id="ToSic_Eav_DataSources_RelationshipFilter_ChildOrParent" data-uid="ToSic.Eav.DataSources.RelationshipFilter.ChildOrParent">ChildOrParent</h4>
+  <div class="markdown level1 summary"><p>Determines if the relationship we're looking into is a 'child'-relationship (default) or 'parent' relationship.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Configuration(Field = &quot;Direction&quot;, Fallback = &quot;child&quot;)]
+public string ChildOrParent { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic/eav-server/new/develop/apiSpec/new?filename=ToSic_Eav_DataSources_RelationshipFilter_CompareAttribute.md&amp;value=---%0Auid%3A%20ToSic.Eav.DataSources.RelationshipFilter.CompareAttribute%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic/eav-server/blob/develop/ToSic.Eav.DataSources/DataSources/Relationships/RelationshipFilter.cs/#L96">View Source</a>
+  </span>
+  <a id="ToSic_Eav_DataSources_RelationshipFilter_CompareAttribute_" data-uid="ToSic.Eav.DataSources.RelationshipFilter.CompareAttribute*"></a>
+  <h4 id="ToSic_Eav_DataSources_RelationshipFilter_CompareAttribute" data-uid="ToSic.Eav.DataSources.RelationshipFilter.CompareAttribute">CompareAttribute</h4>
+  <div class="markdown level1 summary"><p>The attribute we're looking into, in this case it would be 'Country' because we're checking what Authors are from Switzerland.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Configuration(Field = &quot;AttributeOnRelationship&quot;, Fallback = &quot;entitytitle&quot;)]
+public string CompareAttribute { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic/eav-server/new/develop/apiSpec/new?filename=ToSic_Eav_DataSources_RelationshipFilter_CompareMode.md&amp;value=---%0Auid%3A%20ToSic.Eav.DataSources.RelationshipFilter.CompareMode%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic/eav-server/blob/develop/ToSic.Eav.DataSources/DataSources/Relationships/RelationshipFilter.cs/#L108">View Source</a>
+  </span>
+  <a id="ToSic_Eav_DataSources_RelationshipFilter_CompareMode_" data-uid="ToSic.Eav.DataSources.RelationshipFilter.CompareMode*"></a>
+  <h4 id="ToSic_Eav_DataSources_RelationshipFilter_CompareMode" data-uid="ToSic.Eav.DataSources.RelationshipFilter.CompareMode">CompareMode</h4>
+  <div class="markdown level1 summary"><p>Comparison mode.
+&quot;default&quot; and &quot;contains&quot; will check if such a relationship is available
+other modes like &quot;equals&quot; or &quot;exclude&quot; not implemented</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Configuration(Field = &quot;Comparison&quot;, Fallback = &quot;contains&quot;)]
+public string CompareMode { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic/eav-server/new/develop/apiSpec/new?filename=ToSic_Eav_DataSources_RelationshipFilter_Filter.md&amp;value=---%0Auid%3A%20ToSic.Eav.DataSources.RelationshipFilter.Filter%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic/eav-server/blob/develop/ToSic.Eav.DataSources/DataSources/Relationships/RelationshipFilter.cs/#L86">View Source</a>
+  </span>
+  <a id="ToSic_Eav_DataSources_RelationshipFilter_Filter_" data-uid="ToSic.Eav.DataSources.RelationshipFilter.Filter*"></a>
+  <h4 id="ToSic_Eav_DataSources_RelationshipFilter_Filter" data-uid="ToSic.Eav.DataSources.RelationshipFilter.Filter">Filter</h4>
+  <div class="markdown level1 summary"><p>The filter-value that will be used - for example &quot;Switzerland&quot; when looking for authors from there</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Configuration]
+public string Filter { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic/eav-server/new/develop/apiSpec/new?filename=ToSic_Eav_DataSources_RelationshipFilter_Relationship.md&amp;value=---%0Auid%3A%20ToSic.Eav.DataSources.RelationshipFilter.Relationship%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic/eav-server/blob/develop/ToSic.Eav.DataSources/DataSources/Relationships/RelationshipFilter.cs/#L76">View Source</a>
+  </span>
+  <a id="ToSic_Eav_DataSources_RelationshipFilter_Relationship_" data-uid="ToSic.Eav.DataSources.RelationshipFilter.Relationship*"></a>
+  <h4 id="ToSic_Eav_DataSources_RelationshipFilter_Relationship" data-uid="ToSic.Eav.DataSources.RelationshipFilter.Relationship">Relationship</h4>
+  <div class="markdown level1 summary"><p>Relationship-attribute - in the example this would be 'Author' as we're checking values in related Author items.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Configuration]
+public string Relationship { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/2sic/eav-server/new/develop/apiSpec/new?filename=ToSic_Eav_DataSources_RelationshipFilter_Separator.md&amp;value=---%0Auid%3A%20ToSic.Eav.DataSources.RelationshipFilter.Separator%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/2sic/eav-server/blob/develop/ToSic.Eav.DataSources/DataSources/Relationships/RelationshipFilter.cs/#L118">View Source</a>
+  </span>
+  <a id="ToSic_Eav_DataSources_RelationshipFilter_Separator_" data-uid="ToSic.Eav.DataSources.RelationshipFilter.Separator*"></a>
+  <h4 id="ToSic_Eav_DataSources_RelationshipFilter_Separator" data-uid="ToSic.Eav.DataSources.RelationshipFilter.Separator">Separator</h4>
+  <div class="markdown level1 summary"><p>Separator value where we have multiple values / IDs to compare. Default is 'ignore' = no separator</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Configuration(Fallback = &quot;ignore&quot;)]
+public string Separator { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">string</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="ToSic.Eav.DataSource.IDataSource.html">IDataSource</a>
+  </div>
+  <div>
+      <a class="xref" href="ToSic.Eav.Apps.IAppIdentity.html">IAppIdentity</a>
+  </div>
+  <div>
+      <a class="xref" href="ToSic.Eav.Apps.IZoneIdentity.html">IZoneIdentity</a>
+  </div>
+  <div>
+      <a class="xref" href="ToSic.Eav.Apps.IAppIdentityLight.html">IAppIdentityLight</a>
+  </div>
+  <div>
+      <a class="xref" href="ToSic.Eav.Caching.ICacheKey.html">ICacheKey</a>
+  </div>
+  <div>
+      <a class="xref" href="ToSic.Eav.Caching.ICacheExpiring.html">ICacheExpiring</a>
+  </div>
+  <div>
+      <a class="xref" href="ToSic.Eav.Caching.ITimestamped.html">ITimestamped</a>
+  </div>
+  <div>
+      <a class="xref" href="ToSic.Lib.Logging.IHasLog.html">IHasLog</a>
+  </div>
+  <div>
+      <a class="xref" href="ToSic.Eav.DataSource.IDataSourceLinkable.html">IDataSourceLinkable</a>
+  </div>
+
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/2sic/2sxc-docs/blob/master/2sxc Docs Generator/api/dot-net/ToSic.Eav/DataSources/RelationshipFilter.md/#L2" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/2sic/eav-server/blob/develop/ToSic.Eav.DataSources/DataSources/Relationships/RelationshipFilter.cs/#L20" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+
+    <!-- override the built-in highlightjs with a newer version -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script src="../../styles/cshtml-razor.js"></script>
+    <script>
+        hljs.registerLanguage('cshtml-razor', window.hljsDefineCshtmlRazor);
+        hljs.highlightAll();
+    </script>
+
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.13/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="../../styles/2sxc-scripts.js"></script>
+
+    <!-- fancybox -->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  </body>
+</html>

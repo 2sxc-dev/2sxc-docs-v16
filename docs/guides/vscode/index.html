@@ -1,0 +1,288 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  <head>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PH2TVNW');</script>
+    <!-- End Google Tag Manager -->
+    <!-- azing recipe embed resizer -->
+    <script src="https://cdn.azing.org/e/1/embed.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Visual Studio Code - Guide | 2sxc 16 / EAV 16 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Visual Studio Code - Guide | 2sxc 16 / EAV 16 ">
+    <meta name="generator" content="docfx ">
+  
+    <link rel="shortcut icon" href="../../assets/favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+  
+  <meta property="docfx:rel" content="../../">
+  <meta property="docfx:newtab" content="true">
+
+    <!-- Enable lightboxes on all images using https://github.com/roel4ez/docfx-lightbox-plugin -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.13/featherlight.min.css" type="text/css" rel="stylesheet">
+
+    <!-- overwrite the built in highlightJs with a newer version -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/default.min.css">
+
+    <!-- fancybox -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../assets/logos/vcurrent/50.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+
+                <ul class="nav level1 navbar-nav">
+                      <li>
+                          <a href="../../../../basics/index.html" title="Basics">Basics</a>
+                      </li>
+                      <li>
+                          <a href="../../../../abyss/index.html" title="Abyss">Abyss</a>
+                      </li>
+                      <li>
+                          <a href="../../../../web-api/index.html" title="Web APIs">Web APIs</a>
+                      </li>
+                      <li>
+                          <a href="../../../../net-code/index.html" title="C# &amp; Razor">C# &amp; Razor</a>
+                      </li>
+                      <li>
+                          <a href="../../../../api/dot-net/index.html" title=".net API">.net API</a>
+                      </li>
+                      <li>
+                          <a href="../../../../js-code/index.html" title="JS &amp; TS API">JS &amp; TS API</a>
+                      </li>
+                </ul>            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="xxx-breadcrumb">
+            <a class="navbar-right version-button" style="padding: 10px 0 0 0;" href="https://go.2sxc.org/docs-versions" target="_blank">
+              v16 <span class="glyphicon glyphicon-menu-down"></span>
+            </a>
+            <div id="breadcrumb">
+              <ul class="breadcrumb">
+                <li></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Guides.VsCode.Index">
+<h1 id="visual-studio-code---guide">Visual Studio Code - Guide</h1>
+
+<p>This guide will help you get VS Code Setup as best as possible for 2sxc development.</p>
+<h2 id="background">Background</h2>
+<p>You'll often write code in your 2sxc Apps - either as C#/Razor or JavaScript.
+2sxc is a very open system, so you can use any editor you like.
+For quick fixes and simple things, use the built-in editor, which is based on Monaco (VS Code Online).
+But for more sophisticated stuff we recommend VS Code.</p>
+<h2 id="prepare-vs-code-for-2sxc">Prepare VS Code for 2sxc</h2>
+<p>VSCode is amazing right out of the box, but to really be productive, you need to do a few things:</p>
+<ol>
+<li>Install VS Code</li>
+<li>Install the <a href="https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit">C# DevKit extensions</a></li>
+<li>Configure each App with
+<ol>
+<li>Intellisense (see below)</li>
+<li>Ignore the <code>obj</code> and <code>.vs</code> folders (see below)</li>
+</ol>
+</li>
+<li>Check possible edge cases (see below)</li>
+</ol>
+<p>With these preparations, VS-Code is able to assist in basic C# code.
+It can't provide IntelliSense for 2sxc specific APIs yet, so for that, read on.</p>
+<h2 id="configure-an-app-for-razor-intellisense">Configure an App for Razor IntelliSense</h2>
+<p>Apps are usually opened as a folder in VS-Code.
+The problem for IntelliSense is that it doesn't know which DLLs it should use.
+So you need to tell it.
+This is done by adding a <code>.sln</code> solution file and a <code>.csproj</code> project file.</p>
+<p>Add the following two files to the root of your app:</p>
+<p><strong>Template for the <code>/app.sln</code> file</strong></p>
+<pre><code class="lang-text">Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+Project(&quot;{9A19103F-16F7-4668-BE54-9A1E7A4F7556}&quot;) = &quot;App&quot;, &quot;app.csproj&quot;, &quot;{9F7A078F-99D5-4EF4-8EC0-C6B920FE679C}&quot;
+EndProject
+
+#
+# Visual Studio .sln File for 2sxc App
+# This is necessary so that VS Code can perform intellisense in Razor
+# It also requires a csproj file to exist as well
+# 
+# Read more on https://go.2sxc.org/vscode
+#
+</code></pre>
+<p><strong>Template for the <code>/app.csproj</code> file</strong></p>
+<pre><code class="lang-xml">&lt;Project Sdk=&quot;Microsoft.NET.Sdk.Web&quot;&gt;
+  &lt;!-- This file helps VS Code provide IntelliSense - see https://go.2sxc.org/vscode --&gt;
+
+  &lt;PropertyGroup&gt;
+    &lt;TargetFramework&gt;net4.7.2&lt;/TargetFramework&gt;
+    &lt;RootNamespace&gt;App&lt;/RootNamespace&gt;
+  &lt;/PropertyGroup&gt;
+
+  &lt;ItemGroup&gt;
+    &lt;!-- Tell Visual Studio &amp; VSCode to respect all ToSic.* DLLs in the root bin folder --&gt;
+    &lt;Reference Include=&quot;..\..\..\..\bin\ToSic.*.dll&quot; /&gt;
+
+    &lt;!-- also add DotNetNuke DLLs - we don't recommend this, because then your code will never be hybrid --&gt;
+    &lt;!-- &lt;Reference Include=&quot;..\..\..\..\bin\DotNetNuke.*.dll&quot; /&gt; --&gt;
+  &lt;/ItemGroup&gt;
+
+  &lt;!-- Polymorphism
+    If you're working with Polymorphism then you have many of the same files, which confuses Intellisense eg.
+    - /live and /staging have the same files
+    - /bs3 /bs4 / bs5 have the same files
+    The following is meant to exclude some of these folders from intellisense
+  --&gt;
+  &lt;!-- Example: exclude /live as we're always working on /staging --&gt;
+  &lt;ItemGroup&gt;
+    &lt;None Remove=&quot;live\**&quot; /&gt;
+    &lt;Content Remove=&quot;live\**&quot; /&gt;
+    &lt;Compile Remove=&quot;live\**&quot; /&gt;
+    &lt;EmbeddedResource Remove=&quot;live\**&quot; /&gt;
+  &lt;/ItemGroup&gt;
+&lt;/Project&gt;
+</code></pre>
+<div class="TIP">
+<h5>Tip</h5>
+<p>Adding these files helps VSCode provide IntelliSense.
+But be aware that it can't help with <code>dynamic</code> code.
+To get the full benefit, use <a class="xref" href="../../net-code/typed-code/index.html">typed code</a>.</p>
+</div>
+<h2 id="gitignore-temporary-folders">GitIgnore Temporary Folders</h2>
+<p>Add these lines to your <code>.gitignore</code> file to prevent temporary files from being added to your repository:</p>
+<pre><code class="lang-text">.vs/
+obj/
+</code></pre>
+<h2 id="check-for-edge-cases---dnn-with-net-472--48">Check for Edge Cases - DNN with .net 4.7.2 / 4.8</h2>
+<p>If you're using DNN with .net 4.7.2 or 4.8, you may have to do some extra work.
+We're still not 100% sure what this is, since our dev PCs are always setup with all kinds of build tools where it works.
+According to research by <a href="https://www.accu4.com/H2R2S/VS-Code-IntelliSense">Accuraty</a>
+you may need to follow the instructions as noted on the <a href="https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp">C# extension</a>.</p>
+<p>The <strong>C#</strong> extension is auto-installed by the Dev-Kit, but there is this (quoted):</p>
+<div class="NOTE">
+<h5>Note</h5>
+<p>Note: If working on a solution that requires versions prior to .NET 6 or non-solution based projects, install a .NET Framework runtime and MSBuild tooling.</p>
+<ul>
+<li>Set omnisharp.useModernNet to false and set dotnet.server.useOmnisharp to true</li>
+<li>Uninstall or disable C# Dev Kit <strong>we're not sure if this is correct any more!</strong></li>
+<li>Windows: .NET Framework along with MSBuild Tools</li>
+<li>MacOS/Linux: Mono with MSBuild</li>
+</ul>
+</div>
+<p>According to our current understanding you don't need to do this is you have Visual Studio 2022 installed.
+We assume that already includes all the bits which VS Code needs as well.</p>
+<p>We haven't been able to verify or simplify this, but if you're having trouble,
+do read the blog post by <a href="https://www.accu4.com/H2R2S/VS-Code-IntelliSense">Accuraty</a> as well.</p>
+<h2 id="configure-an-app-for-javascript-intellisense">Configure an App for JavaScript IntelliSense</h2>
+<p>TODO: this is not yet documented</p>
+<h2 id="other-guides">Other Guides</h2>
+<ul>
+<li><a href="https://www.accu4.com/H2R2S/VS-Code-IntelliSense">Very helpful guide by Accuraty</a></li>
+</ul>
+<hr>
+<h2 id="history">History</h2>
+<ul>
+<li>Added v16.07 2023-10</li>
+</ul>
+<p>Shortlink: <a href="https://go.2sxc.org/vscode">https://go.2sxc.org/vscode</a></p>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/2sic/2sxc-docs/blob/master/2sxc Docs Generator/pages/guides/vscode/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      
+      <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+
+    <!-- override the built-in highlightjs with a newer version -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+    <script src="../../styles/cshtml-razor.js"></script>
+    <script>
+        hljs.registerLanguage('cshtml-razor', window.hljsDefineCshtmlRazor);
+        hljs.highlightAll();
+    </script>
+
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.7.13/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="../../styles/2sxc-scripts.js"></script>
+
+    <!-- fancybox -->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  </body>
+</html>

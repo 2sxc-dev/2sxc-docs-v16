@@ -1,0 +1,26 @@
+
+
+- name: Basics
+  topicUid: Basics.Index
+  tocHref: pages/basics/toc.yml
+
+- name: Abyss
+  topicUid: Abyss.Index
+  tocHref: pages/abyss/toc.yml
+
+- name: Web APIs
+  topicUid: WebApi.Index
+  tocHref: pages/web-api/toc.yml
+
+- name: C# & Razor
+  topicUid: NetCode.Index
+  tocHref: pages/net-code/toc.yml
+
+- name: .net API
+  # note: this strange path is where docfx put the yml files it generated from the code
+  topicUid: ToSic.Home
+  tocHref: obj/api/dot-net/toc.yml
+
+- name: JS & TS API
+  topicUid: JsCode.Index
+  tocHref: pages/js-code/toc.yml

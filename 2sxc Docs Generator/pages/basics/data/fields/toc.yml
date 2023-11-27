@@ -1,0 +1,88 @@
+# General
+- name: General Field Settings
+  topicUid: Basics.Data.Fields.GeneralSettings
+
+# Boolean
+- name: "<hr>"
+- name: "Boolean Fields"
+  topicUid: Basics.Data.Fields.Boolean
+- name: Boolean Default
+  topicUid: Basics.Data.Fields.Boolean-Default
+- name: Boolean Tristate
+  topicUid: Basics.Data.Fields.Boolean-Tristate
+
+# Boolean
+- name: "<hr>"
+- name: "Date/Time Fields"
+  topicUid: Basics.Data.Fields.DateTime
+- name: DateTime Default
+  topicUid: Basics.Data.Fields.DateTime-Default
+
+# Custom
+- name: "<hr>"
+- name: "Custom Fields"
+  topicUid: Basics.Data.Fields.Custom
+- name: Custom GPS
+  topicUid: Basics.Data.Fields.CustomGps
+
+# Empty
+- name: "<hr>"
+- name: "Empty Fields (Groups)"
+  topicUid: Basics.Data.Fields.Empty
+- name: Empty Default (new Group)
+  topicUid: Basics.Data.Fields.Empty-Default
+- name: Empty End (close a Group)
+  topicUid: Basics.Data.Fields.Empty-End
+- name: Empty Message
+  topicUid: Basics.Data.Fields.Empty-Message
+
+# Entity
+- name: "<hr>"
+- name: "Entity Fields (Relationships)"
+  topicUid: Basics.Data.Fields.Entity
+- name: Entity Default
+  topicUid: Basics.Data.Fields.Entity-Default
+- name: Entity from Query
+  topicUid: Basics.Data.Fields.Entity-Query
+
+# Hyperlink
+- name: "<hr>"
+- name: "Hyperlink Fields (Files)"
+  topicUid: Basics.Data.Fields.Hyperlink
+- name: Hyperlink Default (single item)
+  topicUid: Basics.Data.Fields.Hyperlink-Default
+- name: Hyperlink Library (file lists)
+  topicUid: Basics.Data.Fields.Hyperlink-Library
+
+# Number
+- name: "<hr>"
+- name: "Number Fields"
+  topicUid: Basics.Data.Fields.Number
+- name: Number Default
+  topicUid: Basics.Data.Fields.Number-Default
+- name: Number Dropdown
+  topicUid: Basics.Data.Fields.Number-Dropdown
+
+# String
+- name: "<hr>"
+- name: "String / Text Fields"
+  topicUid: Basics.Data.Fields.String
+- name: String Default
+  topicUid: Basics.Data.Fields.String-Default
+- name: String Dropdown
+  topicUid: Basics.Data.Fields.String-Dropdown
+- name: String Dropdown Query
+  topicUid: Basics.Data.Fields.String-Dropdown-Query
+- name: String WYSIWYG ✨
+  topicUid: Basics.Data.Fields.String-Wysiwyg
+- name: String WYSIWYG Rich ✨
+  topicUid: Basics.Data.Fields.String-Wysiwyg-Rich
+- name: String Font Icon Picker
+  topicUid: Basics.Data.Fields.String-Font-Icon-Picker
+- name: String Url Path
+  topicUid: Basics.Data.Fields.String-Url-Path
+
+# Ephemeral
+- name: "<hr>"
+- name: "Ephemeral Fields (Temporary)"
+  topicUid: Basics.Data.Fields.Ephemeral
