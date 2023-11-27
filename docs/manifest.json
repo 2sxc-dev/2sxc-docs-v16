@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Projects/2sxc/2sxc-docs/2sxc Docs Generator",
+  "source_base_path": "C:/Projects/2sxc/2sxc-docs-v16/2sxc Docs Generator",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -14383,6 +14383,16 @@
       "output": {
         ".html": {
           "relative_path": "net-code/web-api/json-format.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "pages/robots.txt",
+      "output": {
+        "resource": {
+          "relative_path": "robots.txt"
         }
       },
       "version": ""

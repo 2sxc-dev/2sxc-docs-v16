@@ -3,7 +3,20 @@
 
 # 2sxc and EAV Docs v16.07 [LTS](xref:Abyss.Releases.Management.PolicyLts) / v16.09 _Archive_
 
-This is the technical documentation for EAV and 2sxc. If you're new to 2sxc, start with [2sxc.org](https://2sxc.org/).
+This is the technical documentation for EAV and 2sxc.
+If you're new to 2sxc, start with [2sxc.org](https://2sxc.org/).
+
+## Archive Documentation
+
+> [!TIP]
+> This is an archive of the documentation for 2sxc v16.09 and earlier.
+> It may be out of date if you have a newer 2sxc.
+>
+> The latest docs are on <https://docs.2sxc.org>, the version list is on <https://go.2sxc.org/docs-versions>
+
+Note that to avoid confusion, this site is _not_ in the google index.
+
+---
 
 ## Convert Dnn ☢️ and Oqtane 🩸 into a CMS
 
