@@ -12,7 +12,9 @@ If you're new to 2sxc, start with [2sxc.org](https://2sxc.org/).
 > This is an archive of the documentation for 2sxc v16.09 and earlier.
 > It may be out of date if you have a newer 2sxc.
 >
-> The latest docs are on <https://docs.2sxc.org>, the version list is on <https://go.2sxc.org/docs-versions>
+> The latest docs are on <https://docs.2sxc.org>.
+>
+> Version list: <https://go.2sxc.org/docs-versions?version=16.09&path=/>
 
 Note that to avoid confusion, this site is _not_ in the google index.
 
