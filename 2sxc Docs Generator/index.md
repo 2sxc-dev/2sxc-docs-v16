@@ -6,7 +6,7 @@
 This is the technical documentation for EAV and 2sxc.
 If you're new to 2sxc, start with [2sxc.org](https://2sxc.org/).
 
-## Archive Documentation
+## Archive 🔒 Documentation
 
 > [!TIP]
 > This is an archive of the documentation for 2sxc v16.09 and earlier.
